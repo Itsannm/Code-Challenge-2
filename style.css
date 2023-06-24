@@ -1,0 +1,75 @@
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #b6cfb6; /* Set the background color */
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* List */
+  #animal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List Item */
+  #animal-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #cce2cb;
+  }
+  
+  /* Animal Details */
+  #animal-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #cce2cb;
+  }
+  
+  /* Form */
+  #add-animal-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #cce2cb
+  }
+  
+  /* Form Heading */
+  #add-animal-form h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Form Label */
+  #add-animal-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Form Input */
+  #add-animal-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Submit Button */
+  #add-animal-form button[type="submit"] {
+    background-color: #333;
+    color: #90EE90;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Form Submit Button Hover */
+  #add-animal-form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
