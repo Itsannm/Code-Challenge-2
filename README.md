@@ -12,3 +12,7 @@ SetUp Instruction
 You will need to go live from this file.
 
 Requirements
+[Lang](lang Url)
+[Framework](Framework URL)
+Text editor eg Visual Studio Code
+[Testing Platform](Platform URL)
