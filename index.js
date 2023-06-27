@@ -34,9 +34,16 @@ function showAnimalDetails(animalId) {
       const voteButton = document.createElement('button');
       voteButton.textContent = 'Vote';
       voteButton.addEventListener('click', () => {
-        character.votes++;
+        character.votes+=1;
         votesCount.textContent = `Votes: ${character.votes}`;
       });
+      const resetBtn = document.createElement('button');
+      resetBtn.textContent = 'Reset';
+      resetBtn.addEventListener('click', () => {
+        // character.votes+=1;
+        votesCount.textContent = `Votes: 0`;
+      });
       animalDetails.appendChild(voteButton);
+      animalDetails.appendChild(resetBtn);
     });
 }
